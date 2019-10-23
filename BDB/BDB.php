@@ -9,6 +9,8 @@
 require_once (__DIR__."/BConfig.php");
 require_once (__DIR__."/DBReader.php");
 
+namespace BDB\BDB;
+
 class BDB extends DBReader {
     // returnOption function query
     static $RETURN_AUTO = 0;
