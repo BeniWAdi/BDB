@@ -1,5 +1,5 @@
 {
-    "name": "BDB/BDB",
+    "name": "bdb/bdb",
     "description": "CRUD MySql Easily",
     "type": "library",
     "license": "MIT",
