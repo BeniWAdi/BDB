@@ -1,0 +1,17 @@
+{
+    "name": "BDB/BDB",
+    "description": "CRUD MySql Easily",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Beni Wahyu Adi",
+            "email": "beniwahyuadi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"BDB\\BDB\\": "src/"}
+    },
+    "require": {}
+}
