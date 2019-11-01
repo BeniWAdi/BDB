@@ -12,5 +12,7 @@
     "autoload": {
         "psr-4": {"BDB\\BDB\\": "src/"}
     },
-    "require": {}
+    "require": {
+        "php": "^5.6"
+    }
 }
