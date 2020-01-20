@@ -140,16 +140,16 @@ Returns will be ```multiples array``` or ```null``` if ```count(column) > 0```, 
 ### API
 Function | Parameters | Return
 ---------|------------|-------
-`findByPk` | `$tableName, $primaryKey`|`array`/`null`.
-`findAll` | `$tableName, $additionalQuery = ""` | `array`/`null`.
-`searchAll` | `$tableName, $fieldsCompare, $keyword, $additionalQuery = ""` | `array`/`null`.
-`findAllByFields` | `$tableName, array $fields, $additionalQuery = ""` | `array`/`null`.
-`insert` | `$tableName, array $fields` | `bool`.
-`update` | `$tableName, array $fields, $pkOrFields, $operator = "AND"` | `bool`.
-`delete` | `$tableName, $pkOrFields, $operator = "AND"` | `bool`.
-`query` | `$statement, array $bindValues = null, array $bindTypes = null, $returnOption = 0` | Mixed.
-`beginTransaction` | | `bool`.
-`rollBackTransaction` | | `bool`.
-`commitTransaction` | | `bool`.
-`isInTransaction` | | `bool`.
+`findByPk` | `$tableName, $primaryKey`|`array`/`null`
+`findAll` | `$tableName, $additionalQuery = ""` | `array`/`null`
+`searchAll` | `$tableName, $fieldsCompare, $keyword, $additionalQuery = ""` | `array`/`null`
+`findAllByFields` | `$tableName, array $fields, $additionalQuery = ""` | `array`/`null`
+`insert` | `$tableName, array $fields` | `bool`
+`update` | `$tableName, array $fields, $pkOrFields, $operator = "AND"` | `bool`
+`delete` | `$tableName, $pkOrFields, $operator = "AND"` | `bool`
+`query` | `$statement, array $bindValues = null, array $bindTypes = null, $returnOption = 0` | `Mixed`
+`beginTransaction` | | `bool`
+`rollBackTransaction` | | `bool`
+`commitTransaction` | | `bool`
+`isInTransaction` | | `bool`
 
