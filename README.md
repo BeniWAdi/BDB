@@ -4,7 +4,7 @@ PHP library to (Create, Read, Update, Delete) in Mysql databases.
 
 ## Database example
 
-Let's say we have the following database scheme:
+Database example scheme:
 
 ```sql
 CREATE TABLE `category` (
