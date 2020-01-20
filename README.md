@@ -144,7 +144,7 @@ $paramTypes = ["id"=> PDO::PARAM_INT];
 $result = BDB::query($sql, $paramValues, $paramTypes);
 
 ```
-Returns will be ```multiples array``` or ```null`` if ```count(column) > 0```, ```bool``` if ```count(column) = 0```.
+Returns will be ```multiples array``` or ```null``` if ```count(column) > 0```, ```bool``` if ```count(column) = 0```.
 
 ### API
 Function | Parameters | Return
