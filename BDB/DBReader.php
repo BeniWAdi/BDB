@@ -256,7 +256,7 @@ class DBReader extends BConfig {
                     }
                 }
             }
-            $sth->bindParam($key, $value, $type);
+            $sth->bindValue($key, $value, $type);
             $string .= " - \$sth->bindParam($key, $value, $type) <br/>";
         }
         return $string;
