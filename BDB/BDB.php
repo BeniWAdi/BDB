@@ -299,7 +299,7 @@ class BDB extends DBReader {
             $relations = parent::getKeyTable($tableName, "FK");
             if ($relations !== null && $pervResult !== null) {
                 foreach ($relations as $r) {
-                    $foreignKey = $pervResult[$r["REFERENCED_COLUMN_NAME"]];
+                    $foreignKey = $pervResult[$r["COLUMN_NAME"]];
                     $referencedTable = $r["REFERENCED_TABLE_NAME"];
                     if ($relationLimit === null)
                         $temp[$referencedTable] = self::findByPk($referencedTable, $foreignKey, null);
